@@ -11,16 +11,20 @@ function Tetris()
     return(
         <StyledTetrisWrapper>
             <Stage stage={createStage()}/>
+            
             <StyledTetris>
             <aside>
                 <div>
                 <Display text="Score"/>
                 <Display text="Rows"/>
                 <Display text="Level"/>
+                <StartButton/>
                 </div>
             </aside>
+            
             </StyledTetris>
-            <StartButton/>
+            
+            
         </StyledTetrisWrapper>
     )
 }

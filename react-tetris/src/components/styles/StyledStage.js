@@ -9,4 +9,6 @@ border: 2px solid #333;
 width: 100%;
 max-width: 25vw;
 background: #111;
+margin-top: 30px;
+margin-left: 50px;
 `

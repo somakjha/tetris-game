@@ -11,18 +11,19 @@ background-size: cover;
 overflow: hidden;
 `
 export const StyledTetris = styled.div`
+
 display: flex;
 align-items: flex-start;
-padding: 40px;
-margin: 0 auto;
-max-width: 900px;
+padding: 0px;
+margin: -500px auto;
+max-width: 250px;
 
 
 aside{
     width: 100%;
     max-width: 200px;
     display: block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
 `
